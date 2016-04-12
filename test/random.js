@@ -9,10 +9,10 @@ var valid_fullname = function() {
 };
 
 describe("Random test", function() {
-  name1 = random_name({male:true});
-  it('should return a valid male name: '+name1, valid_name.bind(name1));
-  name2 = random_name({female:true});
-  it('should return a valid female name: '+name2, valid_name.bind(name2));
+  // name1 = random_name({male:true});
+  // it('should return a valid male name: '+name1, valid_name.bind(name1));
+  // name2 = random_name({female:true});
+  // it('should return a valid female name: '+name2, valid_name.bind(name2));
   name3 = random_name({first:true});
   it('should return a valid first name: '+name3, valid_name.bind(name3));
   name4 = random_name({last:true});
